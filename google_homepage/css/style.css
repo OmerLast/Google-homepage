@@ -130,8 +130,14 @@ img.voice-input{
   font-family: Arial, Helvetica, sans-serif;
   color: #5f6368;
   font-size: 14px;
-  height: 36px
+  height: 36px ;
   }
+
+/******************** butonlara gölge eklendi **********************/
+.buttons button:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+    }
+
 
 .googlesearch {
   margin: 11px 4px;
