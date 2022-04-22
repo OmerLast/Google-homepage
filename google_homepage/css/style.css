@@ -7,6 +7,11 @@
   font-size: 13px;
 }
 
+/*************** headerli eklendi ********************/
+.headerli{
+  float: right;
+  }
+
 .headerli a {
   display: block;
   color: black;
@@ -24,6 +29,7 @@
   margin: 100px;
 }
 
+/************ search-area içerisine border radius eklendi *******************/
 .search-area {
   background: #fff;
   display: flex;
@@ -34,6 +40,7 @@
   margin: 0 auto;
   margin-top: -77px;
   width: 582px;
+  border-radius: 30px;
 }
 
 .search-area:hover {
@@ -81,6 +88,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   display: block;
 }
 
+/******** input alanı içerisine width: 480px ve border: 0cm ***********/
 .input {
   margin: 0;
   padding: 0;
@@ -101,8 +109,29 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-shadow: none;
   text-align: start;
   appearance: textfield;
+  width: 480px;
   cursor: text;
+  border: 0cm;
 }
+
+/******************* img.voice-input eklenmesi *************************/
+img.voice-input{
+  margin-top: 2px;
+  width: 40px;
+  height: 40px;
+  }
+
+/***************** buttons css eklendi ***************************/
+.buttons{
+  text-align: center;
+  margin: 2px 2px 0px 0px ;
+  border: 1px;
+  border-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px
+  }
 
 .googlesearch {
   margin: 11px 4px;
@@ -123,6 +152,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   user-select: none;
 }
 
+/********* footera background-color: #f2f2f2 eklendi **************/
 .footer {
   margin: 0;
   padding: 0;
@@ -134,10 +164,13 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   width: 100%;
   margin-left: -8px;
   line-height: 10px;
+  background-color: #f2f2f2
 }
 
+/***** listeleme noktalarını kaldırma list-style-type: none ******/
 .footerli {
   float: left;
+  list-style-type: none;
 }
 
 .footerli a {
